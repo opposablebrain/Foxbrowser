@@ -86,19 +86,14 @@
 - (IBAction)showBrowserMenu:(id)sender; {
     UIView *sv = sender;
     
-    NSString * privIcon = @"";
+    NSString * privTag = @"";
     if (isInPrivateMode){
-        privIcon = @"private";
+        privTag = @"private";
     }else{
-        privIcon = @"non-private";
+        privTag = @"non-private";
     }
     
     NSMutableArray *menuItems = [NSMutableArray arrayWithCapacity:5];
-    [menuItems addObject:[KxMenuItem menuItem:NSLocalizedString(@"Private", @"Private")
-                                        image:[UIImage imageNamed:privIcon]
-                                       target:self
-                                       action:@selector(_togglePrivate)]];
-
     
     [menuItems addObject:[KxMenuItem menuItem:NSLocalizedString(@"Bookmarks", @"Bookmarks")
                                         image:[UIImage imageNamed:@"bookmark"]
@@ -131,6 +126,11 @@
                                         image:[UIImage imageNamed:@"sync"]
                                        target:self
                                        action:@selector(_showSyncSettings)]];
+
+    [menuItems addObject:[KxMenuItem menuItem:NSLocalizedString(privTag, @"Private")
+                                        image:[UIImage imageNamed:privTag]
+                                       target:self
+                                       action:@selector(_togglePrivate)]];
 
     
     CGRect rect = [_browser.view convertRect:sv.bounds fromView:sv];
