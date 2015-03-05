@@ -288,7 +288,9 @@ shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherG
     [browser updateInterface];
     
     if (progress >= 1 && ![self.webView.request.URL.scheme isEqualToString:@"file"]) {
-        [[FXSyncStock sharedInstance] addHistoryURL:_request.URL];
+        if (!isInPrivateMode){
+            [[FXSyncStock sharedInstance] addHistoryURL:_request.URL];
+        }
         [[SGFavouritesManager sharedManager] webViewDidFinishLoad:self];
     }
 }

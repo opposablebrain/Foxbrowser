@@ -315,13 +315,13 @@
 		F4FD2B6815ADDBA1005DBAB4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4FD2B6915ADDBA6005DBAB4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4FD2B6C15ADDC06005DBAB4 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		F4FE2C45159B6C58001B04D7 /* Foxbrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foxbrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FE2C45159B6C58001B04D7 /* PrivBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FE2C49159B6C58001B04D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F4FE2C4B159B6C58001B04D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4FE2C4D159B6C58001B04D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F4FE2C51159B6C58001B04D7 /* Foxbrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Foxbrowser-Info.plist"; sourceTree = "<group>"; };
+		F4FE2C51159B6C58001B04D7 /* PrivBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrivBrowser-Info.plist"; sourceTree = "<group>"; };
 		F4FE2C55159B6C58001B04D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4FE2C57159B6C58001B04D7 /* Foxbrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foxbrowser-Prefix.pch"; sourceTree = "<group>"; };
+		F4FE2C57159B6C58001B04D7 /* PrivBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrivBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		F4FE2C58159B6C58001B04D7 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
 		F4FE2C59159B6C58001B04D7 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
 		F4FE7F1E15B48F8900471BD1 /* SGAddButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGAddButton.h; sourceTree = "<group>"; };
@@ -757,7 +757,7 @@
 		F4FE2C46159B6C58001B04D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4FE2C45159B6C58001B04D7 /* Foxbrowser.app */,
+				F4FE2C45159B6C58001B04D7 /* PrivBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -808,9 +808,9 @@
 			isa = PBXGroup;
 			children = (
 				F4FD2B6415ADDB7B005DBAB4 /* Localizable.strings */,
-				F4FE2C51159B6C58001B04D7 /* Foxbrowser-Info.plist */,
+				F4FE2C51159B6C58001B04D7 /* PrivBrowser-Info.plist */,
 				F4FE2C55159B6C58001B04D7 /* main.m */,
-				F4FE2C57159B6C58001B04D7 /* Foxbrowser-Prefix.pch */,
+				F4FE2C57159B6C58001B04D7 /* PrivBrowser-Prefix.pch */,
 				F4C3906B161093D500349AA4 /* Settings.bundle */,
 			);
 			name = "Supporting Files";
@@ -819,9 +819,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4FE2C44159B6C58001B04D7 /* Foxbrowser */ = {
+		F4FE2C44159B6C58001B04D7 /* PrivBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4FE2C5D159B6C58001B04D7 /* Build configuration list for PBXNativeTarget "Foxbrowser" */;
+			buildConfigurationList = F4FE2C5D159B6C58001B04D7 /* Build configuration list for PBXNativeTarget "PrivBrowser" */;
 			buildPhases = (
 				F4FE2C41159B6C58001B04D7 /* Sources */,
 				F4FE2C42159B6C58001B04D7 /* Frameworks */,
@@ -831,9 +831,9 @@
 			);
 			dependencies = (
 			);
-			name = Foxbrowser;
+			name = PrivBrowser;
 			productName = Foxbrowser;
-			productReference = F4FE2C45159B6C58001B04D7 /* Foxbrowser.app */;
+			productReference = F4FE2C45159B6C58001B04D7 /* PrivBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -844,14 +844,14 @@
 			attributes = {
 				CLASSPREFIX = SG;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Simon Peter Grätzer";
+				ORGANIZATIONNAME = "Simon Peter Grätzer and Rodin Lyasoff";
 				TargetAttributes = {
 					F4FE2C44159B6C58001B04D7 = {
-						DevelopmentTeam = AQR4MQXUPM;
+						DevelopmentTeam = 7KRTHZ2J43;
 					};
 				};
 			};
-			buildConfigurationList = F4FE2C3F159B6C58001B04D7 /* Build configuration list for PBXProject "Foxbrowser" */;
+			buildConfigurationList = F4FE2C3F159B6C58001B04D7 /* Build configuration list for PBXProject "PrivBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -899,7 +899,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4FE2C44159B6C58001B04D7 /* Foxbrowser */,
+				F4FE2C44159B6C58001B04D7 /* PrivBrowser */,
 			);
 		};
 /* End PBXProject section */
@@ -1131,7 +1131,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1152,7 +1152,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1170,17 +1170,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Browser/Foxbrowser-Prefix.pch";
+				GCC_PREFIX_HEADER = "Browser/PrivBrowser-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Browser/Foxbrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				INFOPLIST_FILE = "Browser/PrivBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/External/GoogleAnalytics",
 					"$(SDKROOT)/usr/lib/system",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PrivBrowser;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -1195,17 +1195,17 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Browser/Foxbrowser-Prefix.pch";
+				GCC_PREFIX_HEADER = "Browser/PrivBrowser-Prefix.pch";
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Browser/Foxbrowser-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				INFOPLIST_FILE = "Browser/PrivBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/External/GoogleAnalytics",
 					"$(SDKROOT)/usr/lib/system",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PrivBrowser;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -1215,7 +1215,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4FE2C3F159B6C58001B04D7 /* Build configuration list for PBXProject "Foxbrowser" */ = {
+		F4FE2C3F159B6C58001B04D7 /* Build configuration list for PBXProject "PrivBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4FE2C5B159B6C58001B04D7 /* Debug */,
@@ -1224,7 +1224,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4FE2C5D159B6C58001B04D7 /* Build configuration list for PBXNativeTarget "Foxbrowser" */ = {
+		F4FE2C5D159B6C58001B04D7 /* Build configuration list for PBXNativeTarget "PrivBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4FE2C5E159B6C58001B04D7 /* Debug */,

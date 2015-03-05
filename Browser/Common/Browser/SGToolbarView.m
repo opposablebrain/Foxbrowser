@@ -86,8 +86,20 @@
 - (IBAction)showBrowserMenu:(id)sender; {
     UIView *sv = sender;
     
+    NSString * privIcon = @"";
+    if (isInPrivateMode){
+        privIcon = @"private";
+    }else{
+        privIcon = @"non-private";
+    }
     
     NSMutableArray *menuItems = [NSMutableArray arrayWithCapacity:5];
+    [menuItems addObject:[KxMenuItem menuItem:NSLocalizedString(@"Private", @"Private")
+                                        image:[UIImage imageNamed:privIcon]
+                                       target:self
+                                       action:@selector(_togglePrivate)]];
+
+    
     [menuItems addObject:[KxMenuItem menuItem:NSLocalizedString(@"Bookmarks", @"Bookmarks")
                                         image:[UIImage imageNamed:@"bookmark"]
                                        target:self
@@ -130,6 +142,10 @@
 
 - (void)_showBookmarks {
     [self presentMenuController:_bookmarks completion:NULL];
+}
+
+- (void)_togglePrivate {
+    isInPrivateMode = !isInPrivateMode;
 }
 
 - (void)_addRemoveBookmark {

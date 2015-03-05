@@ -32,6 +32,7 @@ NSString *const kSGOpenPagesInForegroundKey = @"org.graetzer.tabs.foreground";
 NSString *const kSGSearchEngineURLKey = @"org.graetzer.search";
 NSString *const kSGEnableHTTPStackKey = @"org.graetzer.httpauth";
 NSString *const kSGEnableAnalyticsKey = @"org.graetzer.analytics";
+bool isInPrivateMode;
 
 // Only used in the appdelegate
 NSString *const kSGBackgroundedAtTimeKey = @"kSGBackgroundedAtTimeKey";

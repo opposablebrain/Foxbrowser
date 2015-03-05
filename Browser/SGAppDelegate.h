@@ -34,3 +34,4 @@ FOUNDATION_EXPORT NSString *const kSGOpenPagesInForegroundKey;
 FOUNDATION_EXPORT NSString *const kSGSearchEngineURLKey;
 FOUNDATION_EXPORT NSString *const kSGEnableHTTPStackKey;
 FOUNDATION_EXPORT NSString *const kSGEnableAnalyticsKey;
+FOUNDATION_EXPORT bool isInPrivateMode;
