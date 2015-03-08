@@ -176,7 +176,7 @@ static NSArray* gFreshSearchHits = nil;
         gRefreshThread = nil;
     }
     
-    if (!query || query.length == 0) {
+    if (isInPrivateMode || !query || query.length == 0) {
         _lastQuery = nil;
         _localResults = nil;
         _remoteResults = nil;
